@@ -64121,3 +64121,187 @@ sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 """,
 )
+
+entry(
+    index = 3085,
+    label = "C6H6 + H <=> H2_p + C6H5_p1",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(
+        A = (5.38e+09, 'cm^3/(mol*s)'),
+        n = 1.582,
+        Ea = (15.689, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+CCSD(T)/CBS
+""",
+)
+
+entry(
+    index = 3086,
+    label = "C10H8 + H <=> H2_p + C10H7-3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (2.47e+09, 'cm^3/(mol*s)'),
+        n = 1.619,
+        Ea = (15.572, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 5,
+    longDesc = 
+u"""
+CCSD(T)/CBS
+""",
+)
+
+entry(
+    index = 3087,
+    label = "C14H10 + H <=> H2_p + C14H9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (8.33e+08, 'cm^3/(mol*s)'),
+        n = 1.658,
+        Ea = (16.676, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+u"""
+M06-2X/6-311g(d,p)
+""",
+)
+
+entry(
+    index = 3088,
+    label = "C14H10_p + H <=> H2_p + C14H9_p",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.63e+08, 'cm^3/(mol*s)'),
+        n = 1.692,
+        Ea = (16.133, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+u"""
+M06-2X/6-311g(d,p)
+""",
+)
+
+entry(
+    index = 3089,
+    label = "C18H12 + H <=> H2_p + C18H11",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(
+        A = (1.03e+09, 'cm^3/(mol*s)'),
+        n = 1.716,
+        Ea = (16.304, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+u"""
+M06-2X/6-311g(d,p)
+""",
+)
+
+entry(
+    index = 3090,
+    label = "C16H10 + H <=> H2_p + C16H9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (9.08e+08, 'cm^3/(mol*s)'),
+        n = 1.665,
+        Ea = (16.222, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+u"""
+M06-2X/6-311g(d,p)
+""",
+)
+
+entry(
+    index = 3091,
+    label = "C22H14 + H <=> H2_p + C22H13",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (4.89e+09, 'cm^3/(mol*s)'),
+        n = 1.508,
+        Ea = (19.882, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = Article(
+        authors = ["'Dingyu Hou'", "'Xiaoqing You'"],
+        title = 'Reaction kinetics of hydrogen abstraction from polycyclic aromatic hydrocarbons by H atoms',
+        journal = "'Physical Chemistry Chemical Physics'",
+        volume = "'19'",
+        pages = "'30772-30780'",
+        year = "'2017'",
+    ),
+    referenceType = "theory",
+    rank = 7,
+    longDesc = 
+u"""
+M06-2X/6-311g(d,p)
+""",
+)
+
+
