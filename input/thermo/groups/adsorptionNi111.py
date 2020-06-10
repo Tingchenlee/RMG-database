@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 name = "Surface Adsorption Corrections Ni(111)"
-shortDesc = u"Surface adsorption Pt(111), Goldsmith 2016"
+shortDesc = u"Surface adsorption Ni(111), Goldsmith 2016"
 longDesc = u"""
 Changes due to adsorbing on a surface.
 Initially, Nickel
