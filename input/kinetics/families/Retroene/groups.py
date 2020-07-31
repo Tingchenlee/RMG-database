@@ -32,18 +32,90 @@ entry(
     label = "Root",
     group = 
 """
-1 *1 R!H       u0 {2,[D,T,B]}
-2 *2 R!H       u0 {1,[D,T,B]} {3,[S,D]}
-3 *3 R!H       u0 {2,[S,D]} {4,S}
-4 *4 R!H       u0 {3,S} {5,[S,D]}
-5 *5 R!H       u0 {4,[S,D]} {6,S}
-6 *6 H         u0 {5,S}
+1 *3 R!H u0 {2,S} {3,[S,D]}
+2 *4 R!H u0 {1,S} {4,[S,D]}
+3 *2 R!H u0 {1,[S,D]} {5,[D,T,B]}
+4 *5 R!H u0 {2,[S,D]} {6,S}
+5 *1 R!H u0 {3,[D,T,B]}
+6 *6 H   u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 1,
+    label = "Root_Ext-2R!H-R",
+    group = 
+"""
+1 *3 O   u0 {2,S} {3,[S,D]}
+2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B]}
+3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
+4 *5 C   u0 {2,[S,D]} {6,S}
+5 *1 O   u0 {3,[D,T,B]}
+6 *6 H   u0 {4,S}
+7    R!H ux {2,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 2,
+    label = "Root_Ext-2R!H-R_Ext-2R!H-R",
+    group = 
+"""
+1 *3 O   u0 {2,S} {3,[S,D]}
+2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B]} {8,[S,D,T,B]}
+3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
+4 *5 C   u0 {2,[S,D]} {6,S}
+5 *1 O   u0 {3,[D,T,B]}
+6 *6 H   u0 {4,S}
+7    R!H ux {2,[S,D,T,B]}
+8    R!H ux {2,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 3,
+    label = "Root_Ext-2R!H-R_Ext-4R!H-R",
+    group = 
+"""
+1 *3 O   u0 {2,S} {3,[S,D]}
+2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B]}
+3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
+4 *5 C   u0 {2,[S,D]} {6,S} {8,[S,D,T,B]}
+5 *1 O   u0 {3,[D,T,B]}
+6 *6 H   u0 {4,S}
+7    C   ux {2,[S,D,T,B]}
+8    R!H ux {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 4,
+    label = "Root_Ext-4R!H-R_Ext-4R!H-R",
+    group = 
+"""
+1 *3 O   u0 r0 {2,S} {3,S}
+2 *4 C   u0 r0 {1,S} {4,S}
+3 *2 C   u0 r0 {1,S} {5,D}
+4 *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B]} {8,[S,D,T,B]}
+5 *1 O   u0 r0 {3,D}
+6 *6 H   u0 r0 {4,S}
+7    R!H ux {4,[S,D,T,B]}
+8    R!H ux {4,[S,D,T,B]}
 """,
     kinetics = None,
 )
 
 tree(
-    """
+"""
 L1: Root
+    L2: Root_Ext-2R!H-R
+        L3: Root_Ext-2R!H-R_Ext-2R!H-R
+        L3: Root_Ext-2R!H-R_Ext-4R!H-R
+    L2: Root_Ext-4R!H-R_Ext-4R!H-R
 """
 )
+

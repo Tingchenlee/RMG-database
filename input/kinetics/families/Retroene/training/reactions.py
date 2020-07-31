@@ -20,8 +20,7 @@ entry(
     index = 1,
     label = "iBA <=> iC4H8(rxn2) + AcOH",
     degeneracy = 1.0,
-    kinetics=Arrhenius(A=(3.16053e+06, 's^-1'), n=1.87467, Ea=(202.966, 'kJ/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(
-        2000, 'K'), comment="""Fitted to 200 data points; dA = *|/ 1.39386, dn = +|- 0.0441278, dEa = +|- 0.226034 kJ/mol"""),
+    kinetics = Arrhenius(A=(3.16053e+06,'s^-1'), n=1.87467, Ea=(202.966,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.39386, dn = +|- 0.0441278, dEa = +|- 0.226034 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 by Xiaorui Dong.""",
 )
@@ -30,8 +29,7 @@ entry(
     index = 2,
     label = "sBA(rxn1) <=> C4H8-1 + AcOH",
     degeneracy = 3.0,
-    kinetics=Arrhenius(A=(3.8952e+07, 's^-1'), n=1.63805, Ea=(190.506, 'kJ/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(
-        2000, 'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44153, dn = +|- 0.0485968, dEa = +|- 0.248926 kJ/mol"""),
+    kinetics = Arrhenius(A=(3.8952e+07,'s^-1'), n=1.63805, Ea=(190.506,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44153, dn = +|- 0.0485968, dEa = +|- 0.248926 kJ/mol"""),
     rank = 5,
     shortDesc = """Calculated at CBS-QB3 by Xiaorui Dong.""",
 )
