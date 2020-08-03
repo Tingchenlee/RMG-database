@@ -136,7 +136,7 @@ entry(
     kinetics = Arrhenius(A=(2.34423e+11,'1/s'), n=0, Ea=(181.5,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 9,
     shortDesc = """Measured from experiment""",
-    longDesc=
+    longDesc = 
 """
 Cited from: Vitins P, Egger K W. The thermochemical kinetics of the retro-‘ene’reactions of
 molecules with the general structure (allyl) XYH in the gas phase. Part IX.
@@ -151,8 +151,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.23027e+11,'1/s'), n=0, Ea=(174.05,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 9,
-    shortDesc="""Measured from experiment""",
-    longDesc="""
+    shortDesc = """Measured from experiment""",
+    longDesc = 
+"""
 Cited from: Kwart H, Sarner S F, Slutsky J. Mechanisms of thermolytic fragmentation of allyl
 ethers. I[J]. Journal of the American Chemical Society, 1973, 95(16): 5234-5242.
 """,
@@ -164,8 +165,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.69824e+11,'1/s'), n=0, Ea=(160,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 9,
-    shortDesc="""Measured from experiment""",
-    longDesc="""
+    shortDesc = """Measured from experiment""",
+    longDesc = 
+"""
 Cited from: Kwart H, Sarner S F, Slutsky J. Mechanisms of thermolytic fragmentation of allyl
 ethers. I[J]. Journal of the American Chemical Society, 1973, 95(16): 5234-5242.
 """,
@@ -178,7 +180,8 @@ entry(
     kinetics = Arrhenius(A=(1e+08,'1/s'), n=1.2, Ea=(44,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc="""
+    longDesc = 
+"""
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
 of 2-phenethyl phenyl ether. The Journal of Physical Chemistry A, 115(4), 428-438.
@@ -192,7 +195,8 @@ entry(
     kinetics = Arrhenius(A=(5.5e+07,'1/s'), n=1.6, Ea=(54,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc="""
+    longDesc = 
+"""
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
 of 2-phenethyl phenyl ether. The Journal of Physical Chemistry A, 115(4), 428-438.
@@ -206,7 +210,8 @@ entry(
     kinetics = Arrhenius(A=(7.94328e+12,'1/s'), n=0, Ea=(44.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Estimated by group additivity approach""",
-    longDesc="""
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -219,7 +224,8 @@ entry(
     kinetics = Arrhenius(A=(2.2e+06,'1/s'), n=0.9, Ea=(49,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """calculated at CBS-QB3""",
-    longDesc="""
+    longDesc = 
+"""
 Cited from: Jarvis, M. W., Daily, J. W., Carstensen, H. H., Dean, A. M., Sharma, S., Dayton,
 D. C., ... & Nimlos, M. R. (2011). Direct detection of products from the pyrolysis
 of 2-phenethyl phenyl ether. The Journal of Physical Chemistry A, 115(4), 428-438.
@@ -232,8 +238,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(8.91251e+12,'1/s'), n=0, Ea=(39.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -245,8 +252,9 @@ entry(
     degeneracy = 9.0,
     kinetics = Arrhenius(A=(1.25893e+13,'1/s'), n=0, Ea=(40,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -258,8 +266,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.98107e+11,'1/s'), n=0, Ea=(36.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -271,8 +280,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(2.51189e+12,'1/s'), n=0, Ea=(43.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -284,8 +294,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -297,8 +308,9 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(36.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -310,8 +322,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -323,8 +336,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(45.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -336,8 +350,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.51189e+12,'1/s'), n=0, Ea=(41.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 3,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -349,8 +364,9 @@ entry(
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(6.30957e+12,'1/s'), n=0, Ea=(44.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -362,8 +378,9 @@ entry(
     degeneracy = 9.0,
     kinetics = Arrhenius(A=(1e+13,'1/s'), n=0, Ea=(39.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -375,8 +392,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.99526e+12,'1/s'), n=0, Ea=(47.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -388,8 +406,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(46.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -401,8 +420,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(46.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -414,8 +434,9 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.94328e+11,'1/s'), n=0, Ea=(45.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -427,8 +448,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(48.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -440,8 +462,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(1.58489e+12,'1/s'), n=0, Ea=(48.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -453,8 +476,9 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.23872e+12,'1/s'), n=0, Ea=(43.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -466,8 +490,9 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(3.98107e+12,'1/s'), n=0, Ea=(43.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
@@ -479,8 +504,9 @@ entry(
     degeneracy = 4.0,
     kinetics = Arrhenius(A=(7.94328e+12,'1/s'), n=0, Ea=(44.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
     rank = 10,
-    shortDesc="""Estimated by group additivity approach""",
-    longDesc="""
+    shortDesc = """Estimated by group additivity approach""",
+    longDesc = 
+"""
 Cited from: O'Neal, H., & Benson, S. (1967). A method for estimating the Arrhenius a factors for
 four-and six-center unimolecular reactions. The Journal of Physical Chemistry, 71(9), 2903-2921.
 """,
