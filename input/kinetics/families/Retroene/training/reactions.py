@@ -349,7 +349,7 @@ entry(
     label = "C16H16O2 <=> AcOH + C14H12",
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(2.51189e+12,'1/s'), n=0, Ea=(41.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(1500,'K')),
-    rank = 3,
+    rank = 10,
     shortDesc = """Estimated by group additivity approach""",
     longDesc = 
 """
@@ -587,6 +587,266 @@ entry(
 AlAbbad, M., Giri, B. R., Szőri, M., Viskolcz, B., & Farooq, A. (2017). A high
 temperature kinetic study for the thermal unimolecular decomposition of diethyl
 carbonate. Chemical Physics Letters, 684, 390-396.
+""",
+)
+
+entry(
+    index = 45,
+    label = "C5H10O <=> C2H4O-2 + C3H6-2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(127.587,'s^-1'), n=2.97303, Ea=(221.127,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52331, dn = +|- 0.0559292, dEa = +|- 0.286484 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 46,
+    label = "C5H10O-2 <=> C3H6O-2 + C2H4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(34.7517,'s^-1'), n=3.09547, Ea=(214.25,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.47481, dn = +|- 0.0516299, dEa = +|- 0.264462 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 47,
+    label = "C5H10O-3 <=> C2H4O-2 + C3H6-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(13.6131,'s^-1'), n=3.07798, Ea=(218.469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52121, dn = +|- 0.0557459, dEa = +|- 0.285545 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 48,
+    label = "C4H9NO <=> C2H5NO + C2H4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(7.78487,'s^-1'), n=3.40032, Ea=(211.103,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.70197, dn = +|- 0.0706665, dEa = +|- 0.361972 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 49,
+    label = "C4H10N2O <=> C2H5NO + C2H5N",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(171001,'s^-1'), n=2.19797, Ea=(217.237,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.46775, dn = +|- 0.050992, dEa = +|- 0.261195 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 50,
+    label = "C5H11NO <=> C3H6O-2 + C2H5N",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(13104.2,'s^-1'), n=2.29082, Ea=(214.941,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.43309, dn = +|- 0.0478167, dEa = +|- 0.24493 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 51,
+    label = "C6H12O <=> C3H6O-2 + C3H6-2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(6102.65,'s^-1'), n=2.55399, Ea=(214.789,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.35527, dn = +|- 0.0403969, dEa = +|- 0.206924 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 52,
+    label = "C5H11NO-2 <=> C2H5NO + C3H6-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3416.42,'s^-1'), n=2.62955, Ea=(212.275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.33575, dn = +|- 0.0384693, dEa = +|- 0.19705 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 53,
+    label = "C6H12O-2 <=> C3H6O-2 + C3H6-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(918.473,'s^-1'), n=2.68918, Ea=(213.037,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44504, dn = +|- 0.0489194, dEa = +|- 0.250578 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 54,
+    label = "C4H8O-4 <=> C2H4O-2 + C2H4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.21309,'s^-1'), n=3.32108, Ea=(220.256,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.52174, dn = +|- 0.0557923, dEa = +|- 0.285783 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 55,
+    label = "C4H8O2-3 <=> C2H4O2 + C2H4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.7605e+06,'s^-1'), n=1.80968, Ea=(236.043,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.60655, dn = +|- 0.0629992, dEa = +|- 0.322699 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 56,
+    label = "C5H10O2-5 <=> C2H4O2 + C3H6-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.2279e+08,'s^-1'), n=1.36832, Ea=(234.848,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.45449, dn = +|- 0.049786, dEa = +|- 0.255017 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 57,
+    label = "C4H8O2-4 <=> C2H4O-2 + C2H4O-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.13509e+12,'s^-1'), n=0.169307, Ea=(240.476,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.14422, dn = +|- 0.0179031, dEa = +|- 0.0917044 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 58,
+    label = "C5H10O2-6 <=> C3H6O-2 + C2H4O-3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.05189e+12,'s^-1'), n=0.0499164, Ea=(232.901,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.22917, dn = +|- 0.0274189, dEa = +|- 0.140447 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 59,
+    label = "C5H10O2-7 <=> C2H4O2 + C3H6-2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(9.91109e+07,'s^-1'), n=1.51788, Ea=(236.313,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.50331, dn = +|- 0.0541732, dEa = +|- 0.277489 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 60,
+    label = "C4H9NO-2 <=> C2H4O-2 + C2H5N",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4838.42,'s^-1'), n=2.3826, Ea=(221.139,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.44929, dn = +|- 0.04931, dEa = +|- 0.252579 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 61,
+    label = "C5H11NO-3 <=> C2H5NO + C3H6-2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(669082,'s^-1'), n=2.05353, Ea=(215.947,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.26289, dn = +|- 0.0310154, dEa = +|- 0.158869 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 62,
+    label = "C4H8O3 <=> C2H4O2 + C2H4O-3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.4836e+09,'s^-1'), n=1.04991, Ea=(238.94,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.28482, dn = +|- 0.0333034, dEa = +|- 0.170589 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 63,
+    label = "C4H9NO2 <=> C2H5NO + C2H4O-3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.89231e+07,'s^-1'), n=1.41637, Ea=(213.544,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.17678, dn = +|- 0.0216307, dEa = +|- 0.110798 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
+""",
+)
+
+entry(
+    index = 64,
+    label = "C4H9NO2-2 <=> C2H4O2 + C2H5N",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.75702e+08,'s^-1'), n=1.30992, Ea=(238.61,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.87631, dn = +|- 0.083625, dEa = +|- 0.428349 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.""",
+    longDesc = 
+"""
+Calculated at CBS-QB3 using TST + 1DSHR approximation by Jeffrey Herron, Xiaorui Dong, and Duminda Ranasinghe.
 """,
 )
 
