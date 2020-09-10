@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "surfaceThermoNi111"
-shortDesc = u"Surface adsorbates on Ni(111)"
+name = "surfaceThermo"
+shortDesc = u""
 longDesc = u"""
-A few surface species adsorbed on Ni(111),
-largely estimated by Franklin Goldsmith
+A few surface species.
 """
 
 
@@ -32,8 +31,6 @@ entry(
     ),
     shortDesc = u"""library value for a vacant surface site""",
     longDesc = u"""Zeros, by definition.""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -60,8 +57,6 @@ entry(
     ),
     shortDesc = u"""H atom adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -89,8 +84,6 @@ entry(
     shortDesc = u"""C atom adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC.
     Unsure of adjacency list: Do we want a lone pair and triple bond?!""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -117,8 +110,6 @@ entry(
     ),
     shortDesc = u"""O atom adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -140,8 +131,6 @@ entry(
     ),
     shortDesc = u"""H2 physisorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -163,8 +152,6 @@ entry(
     ),
     shortDesc = u"""CH adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -193,8 +180,6 @@ entry(
     ),
     shortDesc = u"""CH2 adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -224,8 +209,6 @@ entry(
     ),
     shortDesc = u"""Methyl adsorbed on nickle""",
     longDesc = u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -250,8 +233,6 @@ entry(
     ),
     shortDesc = u"""CH4 physisorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 
@@ -274,8 +255,6 @@ entry(
     ),
     shortDesc = u"""OH adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -298,8 +277,6 @@ entry(
     ),
     shortDesc = u"""H2O physisorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -322,8 +299,6 @@ entry(
     shortDesc = u"""CO adsorbed on nickel (?)""",
     longDesc =  u"""Estimated via CFG-TiC
     Unsure of adjacency list.""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -350,8 +325,6 @@ H--C--O
    || |
 ***********
 """,
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -374,8 +347,6 @@ entry(
     ),
     shortDesc = u"""COH adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -400,8 +371,6 @@ entry(
     ),
     shortDesc = u"""CH2O di-sigma adsorbed on nickel.""",
     longDesc =  u"""Estimated via CFG-TiC. Adjacency list changed by Richard to use two surface sites.""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -425,8 +394,6 @@ entry(
     ),
     shortDesc = u"""CHOH adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -451,8 +418,6 @@ entry(
     ),
     shortDesc = u"""CH3O adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -477,8 +442,6 @@ entry(
     ),
     shortDesc = u"""CH2OH adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -504,8 +467,6 @@ entry(
     ),
     shortDesc = u"""CH3OH physisorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 
@@ -529,8 +490,6 @@ entry(
     ),
     shortDesc = u"""CO2 physisorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
 
 entry(
@@ -554,6 +513,5 @@ entry(
     ),
     shortDesc = u"""HOCO adsorbed on nickel""",
     longDesc =  u"""Estimated via CFG-TiC""",
-    metal = "Ni",
-    facet = "111",
 )
+
