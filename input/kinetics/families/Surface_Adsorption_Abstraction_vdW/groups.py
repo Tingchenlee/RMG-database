@@ -10,6 +10,13 @@ Adsorbtion of a vdw species to the surface with a surface species.
   :   +   |    ---->   |       +  ||
 ~*1~    ~*6~         ~*1~~       ~*6~
 
+Problem:
+ N=N      N+-N--H        N-N-N--H    N+
+  :   +   |      ---->   |        +  ||
+~*1~    ~*6~           ~*1~~        ~*6~
+Solution:
+Don't let *4 have a charge (specify c0 in adjacency list)
+
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2)
 so k should be in (m2/mol/s). We will use sticking coefficients.
@@ -49,7 +56,7 @@ entry(
     group =
 """
 1 *6 Xo  u0 p0 c0 {2,S}
-2 *4 R!H ux px cx {1,S} {3,[S,D,T]}
+2 *4 R!H ux px c0 {1,S} {3,[S,D,T]}
 3 *5 R   ux px cx {2,[S,D,T]}
 """,
     kinetics = None,
@@ -61,7 +68,7 @@ entry(
     group =
 """
 1 *6 Xo u0 p0 c0 {2,S}
-2 *4 C  ux px cx {1,S} {3,[S,D,T]}
+2 *4 C  ux px c0 {1,S} {3,[S,D,T]}
 3 *5 R  ux px cx {2,[S,D,T]}
 """,
     kinetics = None,
@@ -97,7 +104,7 @@ entry(
     group =
 """
 1 *6 Xo  u0 p0 c0 {2,S}
-2 *4 N   ux px cx {1,S} {3,[S,D,T]}
+2 *4 N   ux px c0 {1,S} {3,[S,D,T]}
 3 *5 R   ux px cx {2,[S,D,T]}
 """,
     kinetics = None,
