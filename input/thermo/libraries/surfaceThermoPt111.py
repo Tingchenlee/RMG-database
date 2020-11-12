@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<<< HEAD:input/thermo/libraries/surfaceThermoPt111.py
-=======
->>>>>>> caac55ac4b4aa32b94e068056bba1a684874eb88
 #!/usr/bin/env python
 # encoding: utf-8
 
@@ -1973,11 +1969,4 @@ entry(
             Linear scaling parameters: ref_adatom_C1 = -6.750 eV, ref_adatom_O2 = -1.030 eV, psi = 1.96700 eV, gamma_C1(X) = 0.250, gamma_O2(X) = 0.500.""",
     metal = "Pt",
     facet = "111",
-<<<<<<< HEAD
 )
-
-========
->>>>>>>> caac55ac4b4aa32b94e068056bba1a684874eb88:input/thermo/libraries/surfaceThermoPt.py
-=======
-)
->>>>>>> caac55ac4b4aa32b94e068056bba1a684874eb88
