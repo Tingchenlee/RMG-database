@@ -1,4 +1,3 @@
-<<<<<<< HEAD:input/thermo/libraries/surfaceThermoNi111.py
 #!/usr/bin/env python
 # encoding: utf-8
 
@@ -558,7 +557,3 @@ entry(
     metal = "Ni",
     facet = "111",
 )
-
-
-=======
->>>>>>> caac55ac4b4aa32b94e068056bba1a684874eb88:input/thermo/libraries/surfaceThermoNi.py
