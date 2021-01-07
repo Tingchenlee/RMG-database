@@ -15,7 +15,7 @@ entry(
         n = 0,
         Ea=(0, 'kJ/mol'),
         Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
+        Tmax = (2000, 'K'),
     ),
     shortDesc = u"""""",
     longDesc = u"""""",
