@@ -69,7 +69,7 @@ entry(
     shortDesc = u"""""",
     longDesc = u"""""",
     metal = "Pt" ,
-
+)
 
 entry(
     index = 5,
