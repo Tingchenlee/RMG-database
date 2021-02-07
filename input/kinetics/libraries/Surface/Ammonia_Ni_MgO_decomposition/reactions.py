@@ -42,21 +42,21 @@ entry(
 #because dehydrogenation of NH3 proceeds very rapidly. 
 #Also, the rate of formation of NH3 from N(a) and H(a) is much slower than 
 #the rate of NH3 dehydrogenation under the reaction conditions in this study(atmospheric pressure)
-entry(
-    index = 3,
-    label = " NH3_X + X + X + X <=>  N_X + H_X + H_X + H_X ",
-    kinetics = SurfaceArrhenius(
-        A= (3.12E6, 'm^2/(mol*s)'),  #need to check the unit of A
-        n = 0.0,
-        Ea = (127.8, 'kJ/mol'),  
-        Tmin = (298, 'K'),
-        Tmax = (2000, 'K'),
-    ),
-    shortDesc = u"""""",
-    longDesc = u"""
-""",
-    metal = "Ni",
-)
+#entry(
+#    index = 3,
+#    label = " NH3_X + X + X + X <=>  N_X + H_X + H_X + H_X ",
+#    kinetics = SurfaceArrhenius(
+#        A= (3.12E6, 'm^2/(mol*s)'),  #need to check the unit of A
+#        n = 0.0,
+#        Ea = (127.8, 'kJ/mol'),  
+#        Tmin = (298, 'K'),
+#        Tmax = (2000, 'K'),
+#    ),
+#    shortDesc = u"""""",
+#    longDesc = u"""
+#""",
+#    metal = "Ni",
+#)
 
 entry(
     index = 4,

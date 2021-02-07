@@ -91,7 +91,7 @@ entry(
     index = 5,
     label = " NH3 + X <=> NH3_X ",
     kinetics = StickingCoefficient(
-        A=1.247E-9,    #1.247x10^-5cm/s
+        A=1.247E-5,    #1.247x10^-5cm/s
         n = 0.,
         Ea = (0, 'kJ/mol'),
         Tmin = (298, 'K'),
