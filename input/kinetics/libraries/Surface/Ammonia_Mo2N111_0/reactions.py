@@ -14,7 +14,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (6.06, 'm^2/(mol*s)'),  
         n = 0.0,
-        Ea = (187.11, 'J/mol'),  
+        Ea = (187110, 'J/mol'),  
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -29,7 +29,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (4.39E2, 'm^2/(mol*s)'),  
         n = 0.0,
-        Ea = (158.18, 'J/mol'),  
+        Ea = (158180, 'J/mol'),  
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -44,7 +44,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (8.38, '1/s'),  
         n = 0.0,
-        Ea = (218.94, 'J/mol'),  
+        Ea = (218940, 'J/mol'),  
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -59,7 +59,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (1.75E1, '1/s'),  
         n = 0.0,
-        Ea = (196.76, 'J/mol'),  
+        Ea = (196760, 'J/mol'),  
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -74,7 +74,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (1.63, 'm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (168.79, 'J/mol'),
+        Ea = (168790, 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -89,7 +89,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (2.9, 'm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (159.14, 'J/mol'),
+        Ea = (159140, 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
@@ -104,7 +104,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (6.4E1, 'm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (137.92, 'J/mol'),
+        Ea = (137920, 'J/mol'),
         Tmin = (298, 'K'),
         Tmax = (2000, 'K'),
     ),
