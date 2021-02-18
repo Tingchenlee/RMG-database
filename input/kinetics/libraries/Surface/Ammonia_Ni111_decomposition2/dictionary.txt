@@ -50,3 +50,7 @@ OH_X
 O_X
 1 O u0 p2 c0 {2,D}
 2 X u0 p0 c0 {1,D}
+
+H_X
+1 H u0 p0 c0 {2,S}
+2 X u0 p0 c0 {1,S}
