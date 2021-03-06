@@ -1,18 +1,18 @@
 X
 1 X u0 p0 c0
 
-H_X
-1 H u0 p0 c0 {2,S}
-2 X u0 p0 c0 {1,S}
-
-N_X
+N2
 1 N u0 p1 c0 {2,T}
-2 X u0 p0 c0 {1,T}
+2 N u0 p1 c0 {1,T}
 
 N2_X
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
 3 X u0 p0 c0
+
+N_X
+1 N u0 p1 c0 {2,T}
+2 X u0 p0 c0 {1,T}
 
 NH_X
 1 N u0 p1 c0 {2,S} {3,D}
@@ -32,10 +32,66 @@ NH3_X
 4 H u0 p0 c0 {1,S}
 5 X u0 p0 c0
 
-N2H_X
-1 N u0 p0 c+1 {2,D} {3,S} {4,S}
-2 N u0 p2 c-1 {1,D}
+NH3
+1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2 H u0 p0 c0 {1,S}
 3 H u0 p0 c0 {1,S}
+4 H u0 p0 c0 {1,S}
+
+H_X
+1 H u0 p0 c0 {2,S}
+2 X u0 p0 c0 {1,S}
+
+H2O_X
+1 O u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+4 X u0 p0 c0
+
+H2O
+1 O u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 H u0 p0 c0 {1,S}
+
+O2
+multiplicity 3
+1 O u1 p2 c0 {2,S}
+2 O u1 p2 c0 {1,S}
+
+O_X
+1 O u0 p2 c0 {2,D}
+2 X u0 p0 c0 {1,D}
+
+OH_X
+1 O u0 p2 c0 {2,S} {3,S}
+2 H u0 p0 c0 {1,S}
+3 X u0 p0 c0 {1,S}
+
+NO
+multiplicity 2
+1 N u1 p1 c0 {2,D}
+2 O u0 p2 c0 {1,D}
+
+NO_X
+1 O u0 p2 c0 {2,D}
+2 N u0 p1 c0 {1,D} {3,S}
+3 X u0 p0 c0 {2,S}
+
+N2O
+1 O u0 p2 c0 {2,D}
+2 N u0 p0 c+1 {1,D} {3,D}
+3 N u0 p2 c-1 {2,D}
+
+N2O_X
+1 O u0 p2 c0 {2,D}
+2 N u0 p0 c+1 {1,D} {3,D}
+3 N u0 p2 c-1 {2,D}
+4 X u0 p0 c0
+
+N2H_X
+1 N u0 p1 c0 {2,D} {4,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
 4 X u0 p0 c0 {1,S}
 
 N2H2_X
@@ -61,6 +117,3 @@ N2H4_X
 5 H u0 p0 c0 {2,S}
 6 H u0 p0 c0 {2,S}
 7 X u0 p0 c0
-
-
-
