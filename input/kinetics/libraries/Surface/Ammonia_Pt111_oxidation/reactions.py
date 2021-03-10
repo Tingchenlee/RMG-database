@@ -178,7 +178,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
- = 5.9E12(1/s)/2.483E-9(mol/cm^2)
+A = 5.9E12(1/s)/2.483E-9(mol/cm^2)
 """,
     metal = "Pt",
     facet = "111",
@@ -276,7 +276,7 @@ entry(
     kinetics = StickingCoefficient(
         A = 1.9E-2,  
         n = 0.0,
-        Ea = (184296, 'J/mol'),  
+        Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
