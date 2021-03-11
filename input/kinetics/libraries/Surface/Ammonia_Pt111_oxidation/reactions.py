@@ -208,11 +208,11 @@ A = 3.1E12(1/s)/2.483E-9(mol/cm^2)
 
 entry(
     index = 10,
-    label = "H2O_X <=> H2O + X",
-    kinetics = SurfaceArrhenius(
-        A = (5.9E15, 'cm^2/(mol*s)'),  
+    label = "H2O + X <=> H2O_X",
+    kinetics = StickingCoefficient(
+        A = 2.4E-2, 
         n = 0.0,
-        Ea = (18333, 'J/mol'),  
+        Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -221,6 +221,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+The pressure of adsorption processes: P= 1 bar = 10E5 Pa
 """,
 	metal = "Pt",
     facet = "111",
@@ -228,9 +229,9 @@ https://doi.org/10.1021/acscatal.8b04251
 
 entry(
     index = 11,
-    label = "N_X + N_X <=> N2 + X + X",
-    kinetics = SurfaceArrhenius(
-        A = (3.705E21, 'cm^2/(mol*s)'),  
+    label = "N2 + X + X <=> N_X + N_X",
+    kinetics = StickingCoefficient(
+        A = 6.8E-7,  
         n = 0.0,
         Ea = (244119, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -241,8 +242,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 9.2E12(1/s)/2.483E-9(mol/cm^2)
+The pressure of adsorption processes: P= 1 bar = 10E5 Pa
 """,
     metal = "Pt",
     facet = "111",
