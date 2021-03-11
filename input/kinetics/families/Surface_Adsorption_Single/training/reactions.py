@@ -28,3 +28,43 @@ entry(
     This is R48""",
     metal = "Pt",
 )
+entry(
+    index = 49,
+    label = "Pt + NO <=> NO_X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.019, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia_Pt211_oxidation
+Original entry: NO + X <=> NO_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+""",
+    metal = "Pt",
+    facet = "211",
+)
+
+entry(
+    index = 50,
+    label = "Pt + NO <=> NO_X",
+    degeneracy = 1.0,
+    kinetics = StickingCoefficient(A=0.019, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Adsorption_Single""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia_Pt111_oxidation
+Original entry: NO + X <=> NO_X
+"Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
+DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
+https://doi.org/10.1021/acscatal.8b04251
+The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

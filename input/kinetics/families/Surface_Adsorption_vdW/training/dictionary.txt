@@ -1,0 +1,38 @@
+X
+1 *2 X u0 p0 c0
+
+H3N
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+
+H3NX
+1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *2 X u0 p0 c0
+
+H2O
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+
+H2OX
+1 *1 O u0 p2 c0 {2,S} {3,S}
+2    H u0 p0 c0 {1,S}
+3    H u0 p0 c0 {1,S}
+4 *2 X u0 p0 c0
+
+N2O
+1 *1 O u0 p2 c0 {2,D}
+2    N u0 p0 c+1 {1,D} {3,D}
+3    N u0 p2 c-1 {2,D}
+
+N2OX
+1 *1 O u0 p2 c0 {2,D}
+2    N u0 p0 c+1 {1,D} {3,D}
+3    N u0 p2 c-1 {2,D}
+4 *2 X u0 p0 c0
+
