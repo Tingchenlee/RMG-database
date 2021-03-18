@@ -214,3 +214,49 @@ The value is for NH3_X(rot/vib), for NH3_X(vib), A = 5.6E11(1/s)
     facet = "111",
 )
 
+entry(
+    index = 36,
+    label = "Cu4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(9.49e+19,'cm^2/(mol*s)'), n=0, Ea=(110.92,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia_Ni111_decomposition
+Original entry: NH3_X + X <=> NH2_X + H_X
+A factor is calculated by the Ea and the rate constant from table 2 in 
+"Structure sensitivity of ammonia decomposition over Ni catalysts:
+A computational and experimental study", Xuezhi Duan et al.
+doi:10.1016/j.fuproc.2012.05.030
+
+A factor from paper / surface site density of Ni111
+2.32E7 s^-1 / 3.148E-9 mol/cm^2 = 9.49E19 cm^2/(mol*s)
+""",
+    metal = "Ni",
+    facet = "111",
+)
+
+entry(
+    index = 37,
+    label = "Cu4 + NH3_X <=> NH2_X + H*",
+    degeneracy = 3.0,
+    kinetics = SurfaceArrhenius(A=(5.5e+19,'cm^2/(mol*s)'), n=0, Ea=(63.66,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    shortDesc = """Surface_Dissociation_vdW""",
+    longDesc = 
+"""
+Training reaction from kinetics library: Surface/Ammonia_Ni211_decomposition
+Original entry: NH3_X + X <=> NH2_X + H_X
+A factor is calculated by the Ea and the rate constant from table 2 in 
+"Structure sensitivity of ammonia decomposition over Ni catalysts:
+A computational and experimental study", Xuezhi Duan et al.
+doi:10.1016/j.fuproc.2012.05.030
+
+A factor from paper / surface site density of Ni211
+1.84E11 s^-1 / 3.339E-9 mol/cm^2 = 5.50E19 cm^2/(mol*s)
+""",
+    metal = "Ni",
+    facet = "211",
+)
+
