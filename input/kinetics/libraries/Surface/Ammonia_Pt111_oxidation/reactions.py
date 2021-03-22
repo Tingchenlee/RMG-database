@@ -8,6 +8,11 @@ This library is built to import training reactions, based on:
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
+and
+"Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
+Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
+https://doi.org/10.1021/jp064742b
+
 """
 
 entry(
@@ -68,7 +73,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 5.2E12(1/s)/2.483E-9(mol/cm^2)
+A = 5.2E12(1/s)/2.483E-9(mol/cm^2) 1.007E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -90,7 +95,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 5.5E12(1/s)/2.483E-9(mol/cm^2)
+A = 5.5E12(1/s)/2.483E-9(mol/cm^2) = 2.215E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -112,7 +117,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 7.8E12(1/s)/2.483E-9(mol/cm^2)
+A = 7.8E12(1/s)/2.483E-9(mol/cm^2) = 3.141E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -134,7 +139,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 4.9E13(1/s)/2.483E-9(mol/cm^2)
+A = 4.9E13(1/s)/2.483E-9(mol/cm^2) = 1.973E22 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -156,7 +161,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.5E13(1/s)/2.483E-9(mol/cm^2)
+A = 1.5E13(1/s)/2.483E-9(mol/cm^2) = 6.041E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -178,7 +183,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 5.9E12(1/s)/2.483E-9(mol/cm^2)
+A = 5.9E12(1/s)/2.483E-9(mol/cm^2) = 2.376E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -200,7 +205,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 3.1E12(1/s)/2.483E-9(mol/cm^2)
+A = 3.1E12(1/s)/2.483E-9(mol/cm^2) = 1.248E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -210,7 +215,7 @@ entry(
     index = 10,
     label = "H2O + X <=> H2O_X",
     kinetics = StickingCoefficient(
-        A = 2.4E-2, 
+        A = 9.97E-1, 
         n = 0.0,
         Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -221,7 +226,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+((2.4e3 /Pa) / s) * (2.4e-9 mol/cm2) * sqrt(2 * pi * 18 g/mol * molar gas constant * 298 kelvin)
 """,
 	metal = "Pt",
     facet = "111",
@@ -231,7 +236,7 @@ entry(
     index = 11,
     label = "N2 + X + X <=> N_X + N_X",
     kinetics = StickingCoefficient(
-        A = 6.8E-7,  
+        A = 3.525E-5,  
         n = 0.0,
         Ea = (244119, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -242,7 +247,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+((6.8E-2 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 28 g/mol * molar gas constant * 298 kelvin)
 """,
     metal = "Pt",
     facet = "111",
@@ -264,7 +269,7 @@ entry(
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 8.3E12(1/s)/2.483E-9(mol/cm^2)
+A = 8.3E12(1/s)/2.483E-9(mol/cm^2) = 3.343E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -274,7 +279,7 @@ entry(
     index = 13,
     label = "NO + X <=> NO_X",
     kinetics = StickingCoefficient(
-        A = 1.9E-2,  
+        A = 1,  
         n = 0.0,
         Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -285,7 +290,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+((1.9E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 30 g/mol * molar gas constant * 298 kelvin)
 """,
     metal = "Pt",
     facet = "111",
@@ -301,13 +306,13 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
-    shortDesc = u"""Reverse R34""",
+    shortDesc = u"""""",
     longDesc = u"""
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 4.3E12(1/s)/2.483E-9(mol/cm^2)
+A = 4.3E12(1/s)/2.483E-9(mol/cm^2) = 1.732E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -317,7 +322,7 @@ entry(
     index = 15,
     label = "N2O + X <=> N2O_X",
     kinetics = StickingCoefficient(
-        A = 1.6E-2,  
+        A = 1,  
         n = 0.0,
         Ea = (0, 'J/mol'),  
         Tmin = (200, 'K'),
@@ -328,7 +333,73 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+((1.6E3 /Pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 44 g/mol * molar gas constant * 298 kelvin)
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 16,
+    label = "NH3_X + X <=> NH2_X + H_X",
+    kinetics = SurfaceArrhenius(
+        A = (2.859E20, 'cm^2/(mol*s)'), 
+        n = 0.0,
+        Ea = (, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Dissociation_vdW""",
+    longDesc = u"""
+"Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
+Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
+https://doi.org/10.1021/jp064742b
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 17,
+    label = "NH2_X + X <=> NH_X + H_X",
+    kinetics = SurfaceArrhenius(
+        A = (4.430E21, 'cm^2/(mol*s)'), 
+        n = 0.0,
+        Ea = (, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Dissociation""",
+    longDesc = u"""
+"Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
+Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
+https://doi.org/10.1021/jp064742b
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 18,
+    label = "NH_X + X <=> N_X + H_X",
+    kinetics = SurfaceArrhenius(
+        A = (5.236E21, 'cm^2/(mol*s)'), 
+        n = 0.0,
+        Ea = (, 'J/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
+    ),
+    shortDesc = u"""Surface_Dissociation""",
+    longDesc = u"""
+"Ammonia Dehydrogenation over Platinum-Group Metal Surfaces. Structure, Stability, and Reactivity of Adsorbed NHx Species"
+Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
+https://doi.org/10.1021/jp064742b
+This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
+A = 1.3E13(1/s)/2.483E-9(mol/cm^2) = 5.236E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
