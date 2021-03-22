@@ -19,7 +19,7 @@ entry(
     index = 1,
     label = "O2 + X + X <=> O_X + O_X",
     kinetics = StickingCoefficient(
-        A = 1.8E-2,
+        A = 0.9975,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -30,7 +30,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+A = ((1.8E3 /pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 32 g/mol * molar gas constant * 298 kelvin)
 """,
 	metal = "Pt",
     facet = "111",
@@ -40,7 +40,7 @@ entry(
     index = 2,
     label = "NH3 + X <=> NH3_X",
     kinetics = StickingCoefficient(
-        A = 2.5E-2,
+        A = 1,
         n = 0,
         Ea = (0, 'J/mol'),
         Tmin = (200, 'K'),
@@ -51,7 +51,7 @@ entry(
 "Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities."
 DMa, Hanyu; Schneider, William F.(2019). ACS Catalysis, 9(3), 2407-2414. 
 https://doi.org/10.1021/acscatal.8b04251
-The pressure of adsorption processes: P= 1 bar = 10E5 Pa
+A = ((2.5E3 /pa) / s) * (2.483E-9 mol/cm2) * sqrt(2 * pi * 17 g/mol * molar gas constant * 298 kelvin)
 """,
     metal = "Pt",
     facet = "111",
@@ -345,7 +345,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (2.859E20, 'cm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (, 'J/mol'),
+        Ea = (91000, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -355,7 +355,7 @@ entry(
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
+A (at 500K) = 7.1E11(1/s)/2.483E-9(mol/cm^2) = 2.859E20 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -367,7 +367,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (4.430E21, 'cm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (, 'J/mol'),
+        Ea = (101000, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -377,7 +377,7 @@ entry(
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
+A (at 500K) = 1.1E13(1/s)/2.483E-9(mol/cm^2) = 4.430E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
@@ -389,7 +389,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (5.236E21, 'cm^2/(mol*s)'), 
         n = 0.0,
-        Ea = (, 'J/mol'),
+        Ea = (116000, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -399,7 +399,7 @@ entry(
 Gerard Novell-Leruth et al. J. Phys. Chem. C 2007, 111, 2, 860–868
 https://doi.org/10.1021/jp064742b
 This reaction used RMG's surface site density of Pt111 = 2.483E-9(mol/cm^2) to calculate the A factor.
-A = 1.3E13(1/s)/2.483E-9(mol/cm^2) = 5.236E21 cm^2/(mol*s)
+A (at 500K) = 1.3E13(1/s)/2.483E-9(mol/cm^2) = 5.236E21 cm^2/(mol*s)
 """,
     metal = "Pt",
     facet = "111",
