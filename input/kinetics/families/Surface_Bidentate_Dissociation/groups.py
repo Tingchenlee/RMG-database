@@ -5,7 +5,11 @@ name = "Surface_Bidentate_Dissociation/groups"
 shortDesc = u""
 longDesc = u"""
 A bidentate species with a single bond dissociates. The reverse reaction is when two adsorbates, each with double-bonds or higher to the surface, come together and form a single bond between them (thereby reducing the bond orders to the surface).
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> ca4001e75f0bbcc01f0b784dabd361d5203b5a53
  *1--*2             *1   +  *2
   |  |     ---->    ||       ||
 ~*3~~*4~~          ~*3~~ +  ~*4~~ 
@@ -44,3 +48,4 @@ tree(
 L1: Combined
 """
 )
+

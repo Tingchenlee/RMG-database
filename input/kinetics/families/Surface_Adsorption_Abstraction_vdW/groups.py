@@ -31,7 +31,7 @@ productNum=2
 
 recipe(actions=[
     ['CHANGE_BOND', '*2', -1, '*3'],
-    ['FORM_BOND', '*1', 1, '*2'],
+    ['CHANGE_BOND', '*1', 1, '*2'],
     ['BREAK_BOND', '*4', 1, '*5'],
     ['FORM_BOND', '*3', 1, '*5'],
     ['CHANGE_BOND', '*4', 1, '*6'],
@@ -56,7 +56,7 @@ entry(
     group =
 """
 1 *6 Xo  u0 p0 c0 {2,[S,D,T]}
-2 *4 R!H ux px c0 {1,[S,D,T]} {3,S}
+2 *4 R!H ux px cx {1,[S,D,T]} {3,S}
 3 *5 R   ux px cx {2,S}
 """,
     kinetics = None,
