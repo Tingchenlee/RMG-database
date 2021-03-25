@@ -235,7 +235,7 @@ A factor from paper / surface site density of Cu
 )
 entry(
     index = 35,
-    label = "Cu4 + NH3_X <=> NH2_X + H*",
+    label = "X_4 + NH3_X <=> NH2_X + H*",
     degeneracy = 3.0,
     kinetics = SurfaceArrhenius(A=(3.46e+20,'cm^2/(mol*s)'), n=0, Ea=(93,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -258,7 +258,7 @@ The value is for NH3_X(rot/vib), for NH3_X(vib), A = 5.6E11(1/s)
 
 entry(
     index = 36,
-    label = "Cu4 + NH3_X <=> NH2_X + H*",
+    label = "X_4 + NH3_X <=> NH2_X + H*",
     degeneracy = 3.0,
     kinetics = SurfaceArrhenius(A=(9.49e+19,'cm^2/(mol*s)'), n=0, Ea=(110.92,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,
@@ -281,7 +281,7 @@ A factor from paper / surface site density of Ni111
 
 entry(
     index = 37,
-    label = "Cu4 + NH3_X <=> NH2_X + H*",
+    label = "X_4 + NH3_X <=> NH2_X + H*",
     degeneracy = 3.0,
     kinetics = SurfaceArrhenius(A=(5.5e+19,'cm^2/(mol*s)'), n=0, Ea=(63.66,'kJ/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     rank = 3,

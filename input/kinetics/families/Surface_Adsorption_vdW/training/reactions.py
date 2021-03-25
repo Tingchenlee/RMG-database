@@ -7,6 +7,7 @@ longDesc = u"""
 Put kinetic parameters for specific reactions in this file to use as a
 training set for generating rate rules to populate this kinetics family.
 """
+
 entry(
     index = 1,
     label = "X + H3N <=> H3NX",
@@ -88,7 +89,7 @@ The pressure of adsorption processes: P= 1 bar = 10E5 Pa
 )
 
 entry(
-    index = 5,
+    index = 8,
     label = "X + H2O <=> H2OX",
     degeneracy = 1.0,
     kinetics = StickingCoefficient(A=0.024, n=0, Ea=(0,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),

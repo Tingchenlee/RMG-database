@@ -280,7 +280,7 @@ A (at 300K) = 7.1E12(1/s)/2.483E-9(mol/cm^2) = 2.859E21 cm^2/(mol*s)
 ##Is this bidentate??
 entry(
     index = 28,
-    label = "NO_X + O_X <=> NO2_X",
+    label = "NO_X + O_X <=> X_NO2_X",
     kinetics = SurfaceArrhenius(
         A = (5.477E21, 'cm^2/(mol*s)'),  
         n = 0.0,
