@@ -43,7 +43,7 @@ entry(
     index = 3,
     label = " N2 + X <=> N2_X ",
     kinetics = StickingCoefficient(
-        A =  2.31E16,
+        A =  2.31E-16,
         n = 0,
         Ea=(98.54, 'kJ/mol'),
         Tmin = (298, 'K'),
@@ -58,7 +58,7 @@ entry(
     index = 4,
     label = " O2 + X <=> O2_X ",
     kinetics = StickingCoefficient(
-        A =  5.44E25,
+        A =  5.44E-25,
         n = 0,
         Ea=(0, 'kJ/mol'),
         Tmin = (298, 'K'),
